@@ -15,5 +15,5 @@ def soldier(path, file, format):
             os.rename(file, f"{i}{format}")
             i +=1
 
-soldier(r"C:\Users\hp1\Desktop\soldier",
+soldier(r"C:\Users\hp1\Desktop\soldier",        #Change your path accordingly
         r"C:\Users\hp1\Desktop\soldier\dchange.txt", ".png" )
